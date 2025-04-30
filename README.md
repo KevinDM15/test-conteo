@@ -36,3 +36,15 @@ yarn dev
 ```bash
 yarn build
 ```
+
+## Tecnologias usadas
+
+El proyecto fue desarrollado con React y Vite como bundler. Se utilizó Vite por su rapidez y simplicidad en la configuración. Para el manejo de estados se utilizó el contextAPI de React, lo que permite un manejo más eficiente del estado global de la aplicación para algo simple y evitar el prop drilling. Se ha manejado el diseño con Tailwind CSS para tener algo mas personalizable y sencillo y por su bajo peso en producción. Elegi React Hook Form para manejar las validaciones de formularios por su simplicidad y rapido aprendizaje.
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Sonner Toast](https://sonner.emilkowal.ski/)
+- [CLSX](https://www.npmjs.com/package/clsx)
+- [Tailwind Merge](https://www.npmjs.com/package/tailwind-merge)
+- [React Hook Form](https://react-hook-form.com/)
