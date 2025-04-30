@@ -9,7 +9,7 @@ const App = () => {
       <Toaster richColors position="top-right" />
 
       <div className="w-full bg-gray-200">
-        <h1 className="flex justify-center my-10 text-deep-900 font-extrabold text-7xl">
+        <h1 className="flex justify-center my-10 text-deep-900 font-extrabold text-7xl break-words text-center">
           Test Conteo
         </h1>
       </div>

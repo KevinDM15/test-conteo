@@ -28,6 +28,9 @@ export const AddProductModal = ({
   });
 
   const buildFormData = (data: Product) => {
+    // Si existe un producto inicial, no generamos un nuevo código
+    if (initialData) return data;
+
     return {
       code: Math.floor(100000000 + Math.random() * 900000000), // Genera un código aleatorio de 9 dígitos
       name: data.name,
